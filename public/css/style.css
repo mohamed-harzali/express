@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    /* height: 100vh; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+img {
+    width: 50%;
+    height: 60%;
+    transition:0.5s;
+}
+img:hover {
+    transform: scale(1.2)
+}
+.title{
+    text-transform: capitalize;
+    color: rgb(22, 34, 145);
+}
+.current{
+    color: brown;
+    text-decoration: underline;
+}
+.close{
+    margin-bottom: 20px;
+}
